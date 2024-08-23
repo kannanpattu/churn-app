@@ -5,7 +5,7 @@ import requests
 import snowflake.connector
 import streamlit as st
 
-
+HOST = st.secrets["host"]
 DATABASE = "AI_POC_ADSALES_DB"
 SCHEMA = "AI_POC_ADSALES_SCH"
 STAGE = "CHURN"
