@@ -7,7 +7,7 @@ Streamlit POC app
 ### How to run it on your own machine
 
 1. Create Secrets in ~/.streamlit/secrets.toml
-
+```
 # .streamlit/secrets.toml
 
 user="xxx"
@@ -17,7 +17,7 @@ host="xxx"
 port="xxx"
 warehouse="xxx"
 role="xxx"
-   
+``` 
 3. Install the requirements
 
    ```
