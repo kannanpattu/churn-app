@@ -124,7 +124,7 @@ for message_index, message in enumerate(st.session_state.messages):
             message_index=message_index,
         )
 
-if user_input := st.chat_input("What is your question?"):
+if user_input := st.chat_input("What is your question? Eg: How many advertisers got churned?"):
     process_message(prompt=user_input)
 
 if st.session_state.active_suggestion:
